@@ -27,8 +27,8 @@ button {
 
 .top {
     background-color: #1F2937;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 192px;
+    padding-right: 192px;
     padding-top: 8px;
     display: flex;
     flex-direction: column;
@@ -47,9 +47,9 @@ button {
 }
 
 .top-body {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    gap: 5%;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    gap: 48px;
     display: flex;
     justify-content: space-between;
 }
@@ -98,10 +98,12 @@ button {
 
 .middle-header {
     font-size: 36px;
+    min-height: 96px;
     font-weight: bolder;
     color: #1f2937;
-    text-align: center;
-    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle-images {
@@ -156,3 +158,46 @@ button {
     font-weight: bold;
     padding-left: 66%;
 }
+
+.bottom {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.bottom-container {
+    background-color: #3882f6;
+    color:#E5E7EB;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 48px;
+    padding-left: 96px;
+    padding-right: 96px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container-right {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: #E5E7EB solid 3px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 96px;
+}
+
