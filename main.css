@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -21,7 +23,6 @@ button {
     border: 0;
     font-size: 18px;
     font-weight: bold;
-    
 }
 
 .top {
@@ -84,4 +85,74 @@ button {
 .top-image {
     font-size: 18px;
     color: #F9FAF8;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-top {
+    flex: 1;
+}
+
+.middle-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 32px;
+}
+
+.middle-images {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 66%;
+}
+
+.middle-image-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 165px;
+    text-align: center;
+}
+
+.middle-image {
+    width: 150x;
+    height: 165px;
+    border-radius: 16px;
+    border: 4px #3882f6 solid;
+    flex-shrink: 0;
+}
+
+.middle-image-text {
+    padding-top: 8px;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.middle-bottom {
+    margin-top: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.middle-quote {
+    max-width: 66%;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    margin: auto;
+}
+
+.middle-author {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 66%;
 }
